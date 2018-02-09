@@ -1,0 +1,20 @@
+﻿<Window x:Class="u1_02_ShipstonOutput.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:u1_02_ShipstonOutput"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Label Name="lblTitle" 
+               Content="Type name in below box, please."/>
+        <TextBox x:Name="entryName" Height="23" TextWrapping="Wrap" Text="Entry"/>
+        <Button Name="btnShowGreeting" 
+                Content="Confirm"
+                Click="btnShowGreeting_Click"
+                />
+        <Label Name="lblOutput"
+               Content=""/>
+    </StackPanel>
+</Window>
